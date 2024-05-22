@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 function useHead() {
   const { asPath } = useRouter();
   const { frontMatter, title } = useConfig();
-  const url = `https://qbox-project.github.io${asPath}`;
+  const url = `https://mri-qbox-project.github.io${asPath}`;
   const description = frontMatter.description || "Documentation for the Qbox Project";
 
   return (
@@ -56,7 +56,7 @@ const config: DocsThemeConfig = {
   chat: {
     link: "https://discord.gg/qbox",
   },
-  docsRepositoryBase: "https://github.com/mri-Qbox-Brasil/qbox-project.github.io",
+  docsRepositoryBase: "https://github.com/mri-Qbox-Brasil/mri-qbox-project.github.io",
   footer: {
     text: "Qbox Project",
   },
