@@ -51,12 +51,12 @@ const config: DocsThemeConfig = {
     </div>
   ),
   project: {
-    link: "https://github.com/Qbox-project",
+    link: "https://github.com/mri-Qbox-Brasil",
   },
   chat: {
     link: "https://discord.gg/qbox",
   },
-  docsRepositoryBase: "https://github.com/Qbox-project/qbox-project.github.io",
+  docsRepositoryBase: "https://github.com/mri-Qbox-Brasil/qbox-project.github.io",
   footer: {
     text: "Qbox Project",
   },
